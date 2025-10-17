@@ -551,3 +551,21 @@ body {
     width: 80%;
   }
 }
+.visit-btn {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 8px 15px;
+ background: linear-gradient(45deg, #00ff9d, #00b3ff);
+  color: #000;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.visit-btn:hover {
+ 
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 255, 157, 0.3);
+}
