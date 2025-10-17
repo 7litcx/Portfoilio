@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import Spotify from './assets/spotify.png';
+import Spotify from './assets/Spotify.png';
 import netflix from './assets/netfliex.png';
 import e from './assets/e-commerce.png';
 import emailjs from 'emailjs-com';
@@ -146,6 +146,8 @@ function App() {
                   <span className="skill">TypeScript</span>
                   <span className="skill">HTML/CSS</span>
                   <span className="skill">Next.js</span>
+                  <span className="skill">Flutter</span>
+                  <span className="skill">React Native</span>
                 </div>
               </div>
               <button className="btn primary-btn" onClick={() => document.getElementById('resume-upload')?.click()}>
