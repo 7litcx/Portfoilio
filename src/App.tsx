@@ -246,11 +246,12 @@ function App() {
         </div>
       </section>
 
-      {/* Latest Work Section */}
+     {/* Latest Work Section */}
       <section id="work" className="section work-section">
         <div className="container">
           <h2 className="section-title">My Latest Work</h2>
           <div className="work-container">
+         
             <div className="work-card">
               <div className="work-image">
                 <img src={e} alt="" />
@@ -267,6 +268,14 @@ function App() {
                   <span className="tag">MongoDB</span>
                 </div>
               </div>
+                 <a 
+      href="https://shop-beta-blush-94.vercel.app/" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="visit-btn"
+    >
+      Visit Website
+    </a>
             </div>
             
             <div className="work-card">
@@ -274,10 +283,9 @@ function App() {
                  <img src={netflix} alt="" />
               </div>
               <div className="work-content">
-                <h3 className="work-title">Task Management App</h3>
+                <h3 className="work-title">Netflix Clone</h3>
                 <p className="work-description">
-                  A productivity application for teams to manage projects,
-                  track progress, and collaborate effectively.
+                  A clone of the popular streaming service, built with React and Firebase.
                 </p>
                 <div className="work-tags">
                   <span className="tag">React</span>
@@ -285,6 +293,14 @@ function App() {
                   <span className="tag">Material UI</span>
                 </div>
               </div>
+                 <a 
+      href="https://netflix-clone-six-eosin.vercel.app/" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="visit-btn"
+    >
+      Visit Website
+    </a>
             </div>
             
             <div className="work-card">
@@ -292,10 +308,9 @@ function App() {
                  <img src={Spotify} alt="" />
               </div>
               <div className="work-content">
-                <h3 className="work-title">Portfolio Website</h3>
+                <h3 className="work-title">Spotify Clone</h3>
                 <p className="work-description">
-                  A modern, responsive portfolio website showcasing creative work
-                  with smooth animations and interactions.
+                  A clone of the popular music streaming service, built with React and Node.js.
                 </p>
                 <div className="work-tags">
                   <span className="tag">React</span>
@@ -303,6 +318,14 @@ function App() {
                   <span className="tag">GSAP</span>
                 </div>
               </div>
+                 <a 
+      href="https://spotify-clone-fawn-seven-48.vercel.app/" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="visit-btn"
+    >
+      Visit Website
+    </a>
             </div>
           </div>
         </div>
