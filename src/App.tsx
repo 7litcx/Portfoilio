@@ -5,6 +5,7 @@ import netflix from './assets/netfliex.png';
 import e from './assets/e-commerce.png';
 import n from './assets/ni.png';
 import mo from './assets/mo.jpg';
+import m from './assets/mo.png';
 
 import emailjs from 'emailjs-com';
 
@@ -366,6 +367,34 @@ function App() {
       Visit Website
     </a>
             </div>
+
+        <div className="work-card">
+              <div className="work-image">
+                <img src={m} alt="" />
+              </div>
+              <div className="work-content">
+                <h3 className="work-title">Project Management</h3>
+                <p className="work-description">
+                  A project management web application to help teams collaborate
+                  and track progress effectively.
+                  
+                
+                </p>
+                <div className="work-tags">
+                  <span className="tag">React</span>
+                  <span className="tag">Node.js</span>
+                 
+                </div>
+              </div>
+                 <a 
+      href="https://mangement-three.vercel.app" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="visit-btn"
+    >
+      Visit Website
+    </a>
+            </div>    
         
           </div>
         </div>
